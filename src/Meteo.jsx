@@ -11,7 +11,8 @@ function Meteo() {
 
 
     async function Meteo() {
-        let response = await fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=43.70&lon=7.27&units=metric&lang=fr&appid=bdb97645ce611289c0abb8c3f467c2ce
+        let response = await fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=43.70&lon=7.27&units=metric&lang=fr&appid=48e51318a2fe8630fa5b92fae26ea42b
+
         `);
         console.log('reponse', response);
         let donnees = await response.json();
